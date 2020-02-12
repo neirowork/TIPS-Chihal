@@ -1,0 +1,36 @@
+{
+  "name": "tips-chihal",
+  "version": "0.01-beta",
+  "main": ".dist/index",
+  "scripts": {
+    "tsc-init": "tsc --init",
+    "eslint-init": "eslint --init",
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "start": "node .dist/"
+  },
+  "repository": "https://github.com/neirowork/TIPS-Chihal.git",
+  "author": "Tomotada Saigusa <nirot1r@g-second.net>",
+  "license": "AFL-3.0",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "json-loader": "^0.5.7",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/parser": "^2.19.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.19.1"
+  }
+}
